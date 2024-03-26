@@ -22,7 +22,7 @@ noBtn.addEventListener("mouseover", () => {
   noBtn.style.top = randomY + "px";
 
   original_src = "https://media.giphy.com/media/cbOun7SXza6TpmyUTZ/giphy.gif";
-  original_text = question.innerHTML;
+  original_text = "Do you think youre AMAZING???";
 
   gif.src = 
   "https://media.giphy.com/media/Yt6GOxCQYXXevSZu4U/giphy.gif";
@@ -31,10 +31,10 @@ noBtn.addEventListener("mouseover", () => {
 
   setTimeout(function() {
     question.innerHTML = "Try again";
-  }, 2000);
+  }, 1000);
 
   setTimeout(function() {
     gif.src = original_src;
     question.innerHTML = original_text;
-  }, 4000);
+  }, 2000);
 });
