@@ -8,6 +8,11 @@ yesBtn.addEventListener("click", () => {
   question.innerHTML = "OH YAAAAAAAAAAA! <br> I know you're upset but trust me you've got this";
   gif.src =
     "https://media.giphy.com/media/SkAkim7JbUG01dGzQ0/giphy.gif";
+    
+  setTimeout(function() {
+    question.innerHTML = "I love you :)";
+    gif.src = "https://media.giphy.com/media/fL33rNYmCLmwGwjmDT/giphy.gif"
+  }, 3000);
 });
 
 noBtn.addEventListener("mouseover", () => {

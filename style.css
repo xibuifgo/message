@@ -14,9 +14,14 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.wrapper {
+    width: 25%;
+    height: 25%;
+}
+
 .gif {
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
 }
 
 h2 {
