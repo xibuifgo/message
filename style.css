@@ -10,19 +10,19 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: whitesmoke;
+    background: pink;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .gif {
-    height: 100%;
-    width: 100%;
+    height: 500px;
+    width: 500px;
 }
 
 h2 {
     text-align: center;
     font-size: 1.5em;
-    color: #e94d58;
+    color: #13cb26;
     margin: 15px 0;
 }
 .btn-group {
@@ -41,16 +41,16 @@ button {
     border-radius: 30px;
     outline: none;
     cursor: pointer;
-    box-shadow: 0 2px 4px gray;
-    border: 2px solid #e94d58;
+    box-shadow: 0 2px 4px hotp;
+    border: 2px solid #13cb26;
     font-size: 1.2em;
 }
 button:nth-child(1) {
     margin-left: -200px;
-    background: #e94d58;
+    background: #13cb26;
 }
 button:nth-child(2) {
     margin-right: -200px;
-    background: white;
-    color: #e94d58;
+    background: whitesmoke;
+    color: black;
 }
